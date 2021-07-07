@@ -1,4 +1,3 @@
-import asyncio
 import typing
 from discord.ext import commands
 import discord
@@ -48,7 +47,7 @@ class DiscDB:
             return msg
 
     async def save_json(self, new_dict: dict) -> None:
-        """THe method to save the JSON data to the discord.Message contents. Beware, it makes two API calls at a gap of 1 second always.
+        """THe method to save the JSON data to the discord.Message contents. Beware, it makes an API call.
 
         Args:
             new_dict (dict): The new dict, which will be saved to the message contents
@@ -63,6 +62,4 @@ class DiscDB:
                 "The message ID is either wrong, or the message is not found in the bot's internal cache. Cannot proceed further, sorry")
         if isinstance(self.msg, discord.Message) or self.msg is not None:
             new_json = json.dumps(content=new_dict, indent=4)
-            await self.msg.edit(content=[])
-            await asyncio.sleep(1)
             await self.msg.edit(content=new_json)
