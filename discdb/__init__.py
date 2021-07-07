@@ -1,4 +1,4 @@
-from discdb import DiscDB
+from .discdb import DiscDB
 
 __version__ = "0.1.0"
 __author__ = "Hunter"
