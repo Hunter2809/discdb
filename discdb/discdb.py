@@ -29,14 +29,14 @@ class DiscDB:
             message_id (int): The ID of the message, in which the data is stored
 
         Raises:
-            MessageNotFound: 
+            MessageNotFound:
                 -> If the message ID is not valid
                 -> If the message is not found in the internal cache of the bot
 
         Returns:
-            dict | None: 
+            dict | None:
                 -> The method would return a dict if the message is found, with the JSON contents of the Message
-                -> The method would return None if the message is not found 
+                -> The method would return None if the message is not found
         """
         self.msg = self.bot._connection._get_message(message_id)
         if self.msg is None:
