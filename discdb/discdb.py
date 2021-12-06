@@ -22,7 +22,7 @@ class DiscDB:
             commands.AutoShardedBot
             ]
     ) -> None:
-        """The init method takes in only one positional argument, which is bot.
+        """The init method takes in only one positional argument, which is the bot.
 
         Args:
             bot (discord.Client | discord.AutoShardedClient | commands.Bot | commands.AutoShardedBot): The commands.Bot or the discord.Client instance.
