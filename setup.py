@@ -15,13 +15,10 @@ setup(
         "Natural Language :: English",
         "Operating System :: MacOS",
         "Operating System :: Microsoft :: Windows",
-        "Programming Language :: Python :: 3.7",
-        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3.9",
-    ],
-    install_requires=[
-        "discord.py",
+        "Programming Language :: Python :: 3.8",
     ],
     packages=["discdb"],
-    python_requires='>3.6'
+    python_requires='>3.8'
 )
