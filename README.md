@@ -1,4 +1,7 @@
 # discdb
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+
+[![Generic badge](https://img.shields.io/badge/Python-3.8|3.9|3.10-blue.svg)](https://shields.io/)
 
 discdb is a Python library for dealing with word pluralization.
 
