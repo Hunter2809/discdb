@@ -42,7 +42,7 @@ class DiscDB:
         Args:
             message_id (int): The ID of the message, in which the data is stored
             channel_id (int): The ID of the channel, in case the message is not found in the cache
-            fetch_msg (bool): Wether to fetch the message in case it is not found in the cache
+            fetch_msg (bool): Whether to fetch the message in case it is not found in the cache
 
         Raises:
             MessageNotFound:
