@@ -3,7 +3,7 @@
 
 [![Generic badge](https://img.shields.io/badge/Python-3.8|3.9|3.10-blue.svg)](https://shields.io/)
 
-discdb is a Python library for dealing with word pluralization.
+discdb is a Python library for saving data in Discord Messages instead of an external DB!
 
 ## Installation
 
