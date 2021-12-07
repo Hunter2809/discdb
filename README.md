@@ -23,7 +23,7 @@ bot.db = discdb.DiscDB(bot)
 
 @bot.command()
 async def test(ctx):
-    msg = await bot.db.get_json(...)
+    existing_dict = await bot.db.get_json(...)
     some_dict = {
         "1": "One",
         "2": "Two"
