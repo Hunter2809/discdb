@@ -3,7 +3,7 @@
 
 [![Generic badge](https://img.shields.io/badge/Python-3.8|3.9|3.10-blue.svg)](https://shields.io/)
 
-discdb is a Python library for saving data in Discord Messages instead of an external DB!
+discdb is a Python library for saving data in the form of dicts in Message objects to prevent the hassle of an external DB and Discord data being in discord itself!
 
 ## Installation
 
