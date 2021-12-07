@@ -10,7 +10,7 @@ __all__ = (  # type: ignore
 
 
 class DiscDB:
-    """The main class of the module, which is used for storing data in a discord.Message object. It searches for the message in the cache of the bot, and if not found, would abort the operation
+    """The main class of the module, which is used for storing data in a discord.Message object. It searches for the message in the cache before making an API Call.
     """
 
     def __init__(
